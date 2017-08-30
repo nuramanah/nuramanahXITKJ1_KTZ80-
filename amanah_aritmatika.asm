@@ -1,0 +1,7 @@
+	LD B,1FH
+	LD C,B
+	LD A,01H
+	AND 0FH
+	INC B
+	HALT
+	.END 	
